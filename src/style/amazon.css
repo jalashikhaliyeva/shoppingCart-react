@@ -1,0 +1,15 @@
+.warning {
+  height: 40px;
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 12%;
+  background-color: rgb(210, 91, 91);
+  font-size: 1.1 rem;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 15px;
+}

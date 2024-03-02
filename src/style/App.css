@@ -1,0 +1,43 @@
+body {  
+    background-color: #E3E7E8;
+    font-family: system-ui;
+}
+
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#e8bc0e;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrollToTopBtn span {
+    display: block;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+  }
+  
+  /* Change the color and style of the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #e8bc0e; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Radius of the scrollbar thumb */
+  }
+  
+  /* Optionally, you can add hover effects on the thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#ad8c04; /* Color of the scrollbar thumb on hover */
+  }
